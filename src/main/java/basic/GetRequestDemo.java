@@ -24,7 +24,7 @@ public class GetRequestDemo {
         RestAssured.basePath = "/maps/api";
     }
 
-    @Test
+    @Test (enabled = false)
     public void statusCodeVerification() {
         given()
                 .param("units", "imperial")
@@ -41,7 +41,7 @@ public class GetRequestDemo {
 
     }
 
-    @Test(enabled = false)
+    @Test
     public void getResponseBody() {
         Response res = given()
                 .param("units", "imperial")
