@@ -56,5 +56,6 @@ public class POSTRequestWithPOJO {
                 .contentType(ContentType.JSON).and()
                 .body("scope", equalTo("APP")).and()
                 .body("status", equalTo("OK"));
+        //
     }
 }
