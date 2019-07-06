@@ -1,4 +1,4 @@
-package twitterapiexample;
+package Section_9_OAuth_Real_World_Twitter_APIs_Example;
 
 import static io.restassured.RestAssured.given;
 import org.testng.annotations.BeforeClass;
